@@ -1,10 +1,10 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+
 
 const Character = (object) => {
     return (
         <div data-test="component-character" className="card-container">
-            <img data-test='char-img' src={object.imageUrl} alt={object.name} />
+            <img data-test='char-img' src={object.imgUrl} alt={object.name} />
             <div data-test='character-body' className="card-body">
              <h1 data-test='char-name'>{object.name}</h1>
              <ul data-test='char-list'>
